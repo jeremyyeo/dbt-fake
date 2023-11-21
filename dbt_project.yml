@@ -1,0 +1,8 @@
+name: dbt_fake
+profile: all
+config-version: 2
+version: "1.0.0"
+
+models:
+  dbt_fake:
+    +materialized: view
